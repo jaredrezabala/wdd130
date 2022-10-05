@@ -25,8 +25,7 @@ body {
     color: black;
 }
 header {
-    background-color:rgb(255, 255, 255);
-    color: black;
+    background-color:olivedrab;
 }
 nav a:hover {
     background-color: rgb(255, 255, 255);
@@ -72,14 +71,14 @@ footer a:hover{
     color: black;
 }
 footer{
-    background-color: rgb(255, 255, 255);
+    background-color:olivedrab;
     color: black;
 }
 .logo{
     width: 80px;
 }  
 .icon{
-    width: 80px0;
+    width: 80px;
 }       
 #hero-img{
     width: 80px;
