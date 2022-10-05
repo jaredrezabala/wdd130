@@ -81,7 +81,7 @@ footer{
     width: 80px;
 }       
 #hero-img{
-    max-width: 1600px;
+    width: 100%;
 }
 footer p{
     font-size: 1.2em;
