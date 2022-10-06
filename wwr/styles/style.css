@@ -21,7 +21,7 @@ main section{
 }
 
 body {
-    background-color: #e0d8d8ce; 
+    background-color: rgb(255, 255, 255); 
     color: black;
 }
 header {
@@ -63,7 +63,7 @@ footer a:hover{
     color: black;
 }
 #background{
-    background-color: rgb(255, 255, 255);
+    background-color: #e0d8d8ce;
     color: black;
 }
 .msg{
