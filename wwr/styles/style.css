@@ -6,6 +6,7 @@
 #content{
   max-width: 1600px;
   margin:0 auto;
+  background-color: #fcfbfb;
 }
 nav a{
     text-align: center;
@@ -19,16 +20,18 @@ nav a{
 .button-box{
     text-align: center;
 }
-main section{
+main, section{
     text-align: center;
 }
 #background{
     height: 725px;
+    background-color: #e0d8d8ce;
+    /*color: black;*/
 }
 
 body {
-    background-color: rgb(255, 255, 255); 
-    color: black;
+    background-color: rgb(0, 0, 0); 
+     /*  color: black;*/
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -79,10 +82,7 @@ footer a{
 footer a:hover{
     color: black;
 }
-#background{
-    background-color: #e0d8d8ce;
-    color: black;
-}
+
 .msg{
     background-color: olivedrab;
     color: black;
@@ -128,4 +128,10 @@ footer .social img {
 }
 main section img{
     box-sizing: border-box;
+}
+.img{
+    max-width: 100%;
+}
+.mountains{
+    width: 100%;
 }
