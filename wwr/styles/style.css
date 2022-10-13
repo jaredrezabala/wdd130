@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Rock+Salt&display=swap');
-:root {
- --heading-font: "Rock Salt";
- --paragraph-font: Montserrat, Helvetica, sans-serif;
-   font-family: Montserrat, "Helvetica Neue", Helvetica, sans-serif;
-}
+
 
 #content{
   max-width: 1600px;
@@ -36,6 +32,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 header {
     background-color:olivedrab;
@@ -48,6 +45,7 @@ nav a:hover {
     color: black;
     font-size: 2em;
     margin-top: 10px;
+    font-family: "Rock Salt";
 }
 h4{
     color: black;
@@ -67,6 +65,7 @@ h4{
 }
 .msg h2{
     color: black;
+    font-family: "Rock Salt";
 }
 .msg p{
     color: black;
