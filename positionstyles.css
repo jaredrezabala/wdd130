@@ -45,16 +45,19 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  margin: -50px 0 0 50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  margin: -50px 0 0 100 px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  margin: -50px 0 0 150px;
 } 
 /* Activity 3 styles */ 
 .content3 {
