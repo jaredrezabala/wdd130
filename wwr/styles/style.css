@@ -193,6 +193,9 @@ footer h3{
 footer .social img {
     padding-top: 15px;
 }
+/*These are the styles for the About us page*/
+
+/*These are the styles for the Contact us page*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
