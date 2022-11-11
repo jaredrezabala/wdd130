@@ -194,8 +194,78 @@ footer .social img {
     padding-top: 15px;
 }
 /*These are the styles for the About us page*/
-
+#aboutus-background{
+    background-color: white;
+    max-width: 1600px;
+    margin:0 auto;
+}
+#about-title{
+    font-size: 100px;
+}
+.about-dryoar{
+    margin-right: 50%;
+}
+.about-img{
+    padding-left: 80%;
+}
+.founder{
+    padding-left: 600px;
+}
+.founder-img{
+    height: 500px;
+    margin-right: 100%;
+}
+.gallery-img{
+    width: 80%;
+    height: 600px;
+}
+.gallery{
+    width: 100%;
+}
 /*These are the styles for the Contact us page*/
+.map{
+    margin-left: 50%;
+    margin-bottom: 100%;
+
+}
+#contact-background{
+    max-width: 1600px;
+    margin:0 auto;
+    background-color: white;
+}
+.contact-main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+.contact-img{
+    margin-left: 60%;
+}
+.form-titles{
+    font-size: 40px;
+    align-content: space-around;
+}
+.input{
+    margin-right: 80%;
+}
+#contact-title{
+    margin-right: 60%;
+}
+.send-message{
+    margin-right: 60%;
+    width: 100px;
+    padding-left: 100px;
+}
+.input-box{
+    width: 300px;
+    height: 100px;
+    align-self: center;
+}
+.barra{
+    width: 100px;
+    height: 100px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
