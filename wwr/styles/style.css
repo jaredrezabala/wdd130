@@ -250,7 +250,9 @@ footer .social img {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+.about-title, .about-title1, .star-title{
+    font-family: "Rock Salt";
+}
 .aboutus-grid {
     margin: 70px 50px;
 }
@@ -290,18 +292,21 @@ footer .social img {
     line-height: 70px;
     padding-left: 100px;
     text-align: center;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 .first-block {
     display: flex;
 }
-
+#founder-title, #gallery-title{
+    font-family: "Rock Salt";
+}
 .founder-img {
     width: 600px;
     height: 600px;
     float: left;
     padding-right: 30px;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .founder-msg {
@@ -311,6 +316,7 @@ footer .social img {
     text-align: justify;
     line-height: 70px;
     text-align: center;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 .gallery-img {
@@ -339,49 +345,48 @@ footer .social img {
     background-color: white;
 }
 
-.contact-main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-
-}
-
-.contact-img {
-    margin-left: 60%;
-}
-
-.form-titles {
-    font-size: 40px;
-    align-content: space-around;
-}
-
-.input {
-    margin-right: 80%;
-}
-
-#contact-title {
-    margin-right: 60%;
-}
-
-.send-message {
-    margin-right: 60%;
-    width: 100px;
-    padding-left: 100px;
-}
-
 .formulario {
-    display: block;
-    justify-content: left;
-    margin: 15px 20px;
-    padding: 50px 100px;
-
-
+    line-height: 100px;
+    justify-items: center;
 }
-
-.img-contact {
+.contact-block{
     display: flex;
-    margin-left: auto;
-    justify-content: initial;
+    justify-content:space-around;
+}
+.img-contact {
+    display: block;
+    justify-self: center;
+    margin-top: 90px;
+    height: 200px;
+}
+.contact-img{
+    height: 500px;
+}
+.form-titles{
+    font-size: 20px;
+}
+.input-box-small{
+    width: 300px;
+    height: 50px;
+}
+.input-box{
+     width: 400px;
+    height: 200px; 
+}
+.msg-button{
+    width: 200px;
+    margin-left: 60px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 50px ;
+    background-color: olivedrab;
+    color: white;
+}
+.msg-button:hover{
+    background-color: rgba(60, 105, 15, 0.918);
+}
+.contact-title, .form-titles, .address-title{
+    font-family: "Rock Salt";
 
 }
 
