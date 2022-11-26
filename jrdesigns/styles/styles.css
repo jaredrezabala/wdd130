@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=PT+Mono&display=swap');
+
 /*BEGINNING OF HAMBURGUER MENU*/
 *,
 *:before,
@@ -174,15 +176,19 @@ label a {
     margin-bottom: 80px;
 }
 
-.home-content {
-    display: grid;
-    /* grid-template-rows: repeat(4, 25%); */
-}
+/* .home-content {
+    display: grid; 
+} */
 
 /*END OF HAMBURGUER MENU*/
 /*Begin of first catalog home page*/
 main div h1 {
+    
     text-align: center;
+    font-family: "Mali";
+}
+p{
+    font-family: PT Mono, Helvetica, sans-serif;
 }
 
 .first-catalog {
