@@ -18,13 +18,15 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 }
-header{
+
+header {
     display: grid;
-    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5, 20%);
     grid-template-rows: 1;
     background-color: #2c0900ea;
 }
-.logo{
+
+.logo {
     width: 35%;
     grid-column: 3;
     margin: 0 auto;
@@ -32,6 +34,7 @@ header{
     border-style: solid;
     border-radius: 55px;
 }
+
 label .menu {
     position: absolute;
     right: -100px;
@@ -135,46 +138,54 @@ label a {
     text-decoration: none;
 
 }
-#content{
+
+#content {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#hero{
+
+#hero {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-#hero-box{
+
+#hero-box {
     display: grid;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2, 50%);
     height: 500px;
-    background-color: #2c0900ea ;
+    background-color: #2c0900ea;
     justify-items: center;
 }
-.hero-img{ 
-    width: 70% ;
+
+.hero-img {
+    width: 70%;
     align-self: center;
 }
-.hero-msg{
+
+.hero-msg {
     width: 70%;
     text-align: center;
     align-self: center;
 }
-.home-grid{
+
+.home-grid {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.home-content{
+
+.home-content {
     display: grid;
     /* grid-template-rows: repeat(4, 25%); */
 }
 
 /*END OF HAMBURGUER MENU*/
 /*Begin of first catalog home page*/
-main div h1{
+main div h1 {
     text-align: center;
 }
+
 .first-catalog {
     width: 90%;
     padding: 10px;
@@ -183,7 +194,8 @@ main div h1{
     display: flex;
     justify-content: center;
 }
-.first-catalog-msg{
+
+.first-catalog-msg {
     width: 100%;
     padding-left: 150px;
     padding-right: 150px;
@@ -191,7 +203,8 @@ main div h1{
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
-.customize{
+
+.customize {
     text-decoration: none;
     color: #ddd;
     background-color: goldenrod;
@@ -199,12 +212,13 @@ main div h1{
     border-style: solid;
     border-radius: 15px;
 }
+
 .box {
     width: 250px;
     height: 300px;
     background: orange;
     background-image: url("../images/first-tshirt-catalog.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     margin: 0px 10px;
     transition: 1s;
@@ -214,17 +228,18 @@ main div h1{
     transform: scale(1.3);
     background: #ff800a;
     background-image: url("../images/first-tshirt-catalog.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px #000;
     z-index: 2;
 }
+
 .box2 {
     width: 250px;
     height: 300px;
     background: orange;
     background-image: url("../images/first-tshirt-catalog4.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     margin: 0px 10px;
     transition: 1s;
@@ -234,17 +249,18 @@ main div h1{
     transform: scale(1.3);
     background: #ff800a;
     background-image: url("../images/first-tshirt-catalog4.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px #000;
     z-index: 2;
 }
+
 .box3 {
     width: 250px;
     height: 300px;
     background: orange;
     background-image: url("../images/first-tshirt-catalog3.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     margin: 0px 10px;
     transition: 1s;
@@ -254,17 +270,18 @@ main div h1{
     transform: scale(1.3);
     background: #ff800a;
     background-image: url("../images/first-tshirt-catalog3.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px #000;
     z-index: 2;
 }
+
 .box4 {
     width: 250px;
     height: 300px;
     background: orange;
     background-image: url("../images/first-tshirt-catalog2.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     margin: 0px 10px;
     transition: 1s;
@@ -274,17 +291,18 @@ main div h1{
     transform: scale(1.3);
     background: #ff800a;
     background-image: url("../images/first-tshirt-catalog2.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px #000;
     z-index: 2;
 }
+
 .box5 {
     width: 250px;
     height: 300px;
     background: orange;
     background-image: url("../images/first-tshirt-catalog1.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     margin: 0px 10px;
     transition: 1s;
@@ -294,7 +312,7 @@ main div h1{
     transform: scale(1.3);
     background: #ff800a;
     background-image: url("../images/first-tshirt-catalog1.jpg");
-    background-size: 250px 300px; 
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px #000;
     z-index: 2;
@@ -492,29 +510,34 @@ main div h1{
 }
 
 /*end rate us*/
-footer{
+footer {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 1;
     padding: 50px 50px 50px 50px;
     background-color: #2c0900ea;
 }
-.copyright{
+
+.copyright {
     width: 70%;
     margin-right: 55%;
     margin-top: 100px;
 }
-.copyright p{
+
+.copyright p {
     font-size: 25px;
 }
-.copyright a{
+
+.copyright a {
     text-decoration: none;
     color: #ddd;
 }
-.schedule{
-    width: 50%; 
+
+.schedule {
+    width: 50%;
 }
-.social{
+
+.social {
     width: 50%;
     margin-left: 55%;
     margin-top: auto;
