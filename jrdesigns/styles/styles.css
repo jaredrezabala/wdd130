@@ -178,7 +178,7 @@ label a {
 
 /* .home-content {
     display: grid; 
-} */
+}  */
 
 /*END OF HAMBURGUER MENU*/
 /*Begin of first catalog home page*/
@@ -539,7 +539,11 @@ footer {
 }
 
 .schedule {
-    width: 50%;
+    width: 55%;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 15px;
+    font-size: 20px;
 }
 
 .social {
