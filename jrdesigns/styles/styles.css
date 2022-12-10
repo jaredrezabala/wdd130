@@ -328,149 +328,7 @@ p {
 
 /*end of first catalog home page*/
 
-/*beginning slideshow*/
-.slideshow {
-    margin: 0 auto;
-    padding-top: 50px;
-    height: 700px;
-    background: skyblue;
-    box-sizing: border-box;
-}
 
-.speak-catalog {
-    margin: auto;
-    width: 190px;
-    perspective: 1000px;
-    position: relative;
-    padding-top: 80px;
-}
-
-.content-catalog {
-    width: 100%;
-    position: absolute;
-    float: right;
-    animation: rotar 15s infinite linear;
-    transform-style: preserve-3d;
-}
-
-.content-catalog:hover {
-    animation-play-state: paused;
-    cursor: pointer;
-}
-
-.content-catalog figure {
-    width: 100%;
-    height: 120px;
-    border: 1px solid #4d444d;
-    overflow: hidden;
-    position: absolute;
-}
-
-.content-catalog figure:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(2) {
-    transform: rotateY(40deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(3) {
-    transform: rotateY(80deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(4) {
-    transform: rotateY(120deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(5) {
-    transform: rotateY(160deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(6) {
-    transform: rotateY(200deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(7) {
-    transform: rotateY(240deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(8) {
-    transform: rotateY(280deg) translateZ(300px);
-}
-
-.content-catalog figure:nth-child(9) {
-    transform: rotateY(320deg) translateZ(300px);
-}
-
-.shadow {
-    position: absolute;
-    box-shadow: 0px 0px 20px 0px #000;
-    border-radius: 2px;
-}
-
-.content-catalog img {
-    image-rendering: auto;
-    transition: all 300ms;
-    width: 100%;
-    height: 100%;
-}
-
-.content-catalog img:hover {
-    transform: scale(1.2);
-    transition: all 300ms;
-}
-
-@keyframes rotar {
-    from {
-        transform: rotateY(0deg);
-    }
-
-    to {
-        transform: rotateY(360deg);
-    }
-}
-
-/*end slideshow*/
-/*RAte us*/
-.rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-
-
-.rating>input {
-    display: none;
-}
-
-.rating>label {
-    position: relative;
-    width: 1.1em;
-    font-size: 15vw;
-    color: #FFD700;
-    cursor: pointer;
-}
-
-.rating>label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
-}
-
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-    opacity: 1 !important;
-}
-
-.rating>input:checked~label:before {
-    opacity: 1;
-}
-
-.rating:hover>input:checked~label:before {
-    opacity: 0.4;
-}
-
-/*end rate us*/
 footer {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -680,8 +538,199 @@ footer {
     justify-self: center;
 }
 
-main div p {
+#customize-msg {
     width: 100%;
     text-align: center;
     font-size: 30px;
 }
+
+/* Subpage 2 */
+.speak-title {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.speak-hero {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+
+}
+
+.speak-msg {
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.speak-img {
+    width: 65%;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+/*beginning slideshow*/
+.slideshow-title {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.slideshow {
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 460px;
+    box-sizing: border-box;
+}
+
+.speak-catalog {
+    margin: auto;
+    width: 190px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.content-catalog {
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-catalog:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-catalog figure {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #4d444d;
+    overflow: hidden;
+    position: absolute;
+}
+
+.content-catalog figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px);
+}
+
+.content-catalog figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px);
+}
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 2px;
+}
+
+.content-catalog img {
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+}
+
+.content-catalog img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/*end slideshow*/
+/*RAte us*/
+.rate-title {
+    margin-top: 10px;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+.rating>input {
+    display: none;
+}
+
+.rating>label {
+    position: relative;
+    width: 1.1em;
+    font-size: 15vw;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important;
+}
+
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4;
+}
+
+/*end rate us*/
